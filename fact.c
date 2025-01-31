@@ -1,13 +1,19 @@
-#include <stdio.h>
-
-int main(){
-    int num,fact=1;
-    printf("Enter a number: ");
-    scanf("%d",&num);
-
-    for (int i=1; i<=num; i++){ 
+#include<stdio.h>
+long factorial(int n) 
+{
+    long fact=1;                    
+    for(int i=1;i<=n;i++)
+    {
         fact*=i;
     }
-    printf("The factorial is: %d",fact);
+    return fact;
+}
+
+int main()
+{
+    int n;
+    printf("Enter a number:\n ");
+    scanf("%d",&n);
+    printf("the factorial is: %ld",factorial(n));
     return 0;
 }
