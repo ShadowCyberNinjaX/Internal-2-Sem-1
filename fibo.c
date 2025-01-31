@@ -1,5 +1,5 @@
 #include<stdio.h>
-//fibonacci series generator in terms of range
+//7.fibonacci series generator in terms of range
 void fibo(int n);
 int main()
 {

@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+//20.search an given element in array
 void inputarray(int a[],int n)
 {
     for(int i=0;i<n;i++)

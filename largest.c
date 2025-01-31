@@ -1,4 +1,5 @@
 #include<stdio.h>
+//10.largest number from 3x3 matrix
 void inputmatrix(int a[3][3])
 {
     for(int i=0;i<3;i++)

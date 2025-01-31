@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//34.area of rectangle
 int area(int l,int w) 
 {
     return l*w;

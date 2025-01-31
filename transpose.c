@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+//14.transpose of a matrix
 void inputmatrix(int a[3][3])
 {
     for(int i=0;i<3;i++)

@@ -1,4 +1,5 @@
 #include<stdio.h>
+//11.both diagonal sum of 3x3 matrix
 void inputmatrix(int a[3][3])
 {
     for(int i=0;i<3;i++)

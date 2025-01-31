@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+//13.multiplication of matrix
 void inputmatrix(int a[3][3])
 {
     for(int i=0;i<3;i++)
@@ -51,7 +51,7 @@ int main()
     printmatrix(m1);
     printf("the matrix is:\n");
     printmatrix(m2);
-    printf("the matrix multiplication is\n:");
+    printf("the matrix multiplication is:\n");
     multi(m1,m2);
     return 0;
 }

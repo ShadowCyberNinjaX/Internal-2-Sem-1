@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+//22.swap even and odd
 void inputarray(int a[],int n)
 {
     for(int i=0;i<n;i++)

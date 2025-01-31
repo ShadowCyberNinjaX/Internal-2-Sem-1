@@ -1,4 +1,5 @@
 #include<stdio.h>
+//23.find largest and smallest element and arrange the array in ascending and decending order
 void inputarray(int a[],int n)
 {
     for(int i=0;i<n;i++)

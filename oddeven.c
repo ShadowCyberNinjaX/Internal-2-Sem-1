@@ -1,4 +1,5 @@
 #include <stdio.h>
+//26. check if number is even or odd
 void oddeven(int n)
 {
     if(n%2==0)

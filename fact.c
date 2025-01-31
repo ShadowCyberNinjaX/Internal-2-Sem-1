@@ -1,4 +1,5 @@
 #include<stdio.h>
+//27.factorial of a number
 long factorial(int n) 
 {
     long fact=1;                    

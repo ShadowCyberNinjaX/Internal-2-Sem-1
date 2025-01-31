@@ -1,5 +1,5 @@
 #include<stdio.h>
-//reverse the array method 2
+//21.reverse the array 
 void inputarray(int arr[],int *n)
 {
     for(int i=0;i<*n;i++)

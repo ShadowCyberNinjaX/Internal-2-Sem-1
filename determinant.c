@@ -1,4 +1,5 @@
 #include<stdio.h>
+//15.determinant of a 3x3 matrix
 int determinant(int m[3][3])
 {
     int det;
