@@ -47,9 +47,9 @@ int main()
     inputmatrix(m1);
     printf("enter the elements of 2nd matrix.\n");
     inputmatrix(m2);
-    printf("the matrix is:\n");
+    printf("the 1st matrix is:\n");
     printmatrix(m1);
-    printf("the matrix is:\n");
+    printf("the 2nd matrix is:\n");
     printmatrix(m2);
     printf("the matrix multiplication is:\n");
     multi(m1,m2);
