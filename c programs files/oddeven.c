@@ -1,5 +1,5 @@
 #include <stdio.h>
-//26. check if number is even or odd
+//26. check if number is even or odd + FLOWCHART
 void oddeven(int n)
 {
     if(n%2==0)

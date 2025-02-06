@@ -1,5 +1,5 @@
 #include<stdio.h>
-//27.factorial of a number
+//27.factorial of a number+FLOWCHART
 long factorial(int n) 
 {
     long fact=1;                    
