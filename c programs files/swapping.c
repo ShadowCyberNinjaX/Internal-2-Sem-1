@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main()
 {//1.swapping of two numbers without using third variable
+//25.swapping of two numbers without using third variable + FLOWCHART
     int a,b;
     printf("enter the value of a::\n");
     scanf("%d",&a);

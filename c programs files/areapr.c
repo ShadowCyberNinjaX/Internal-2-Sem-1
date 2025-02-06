@@ -1,5 +1,5 @@
 #include <stdio.h>
-//24.area and perimeter of rectangle using pointer and one function
+//34.area and perimeter of rectangle using pointer and one function
 int rect(float *l,float *w,float *a,float *p) 
 {
     *a=*l**w;
