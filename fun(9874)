@@ -1,0 +1,72 @@
+Call fun(9874)
+9874 / 10 is not 0, move to the else block.
+Calculate 9874 % 10=4.
+Calculate fun(9874 / 10)=fun(987).
+Call fun(987)
+987 / 10 is not 0, move to the else block.
+Calculate 987 % 10=7.
+Calculate fun(987 / 10)=fun(98).
+Call fun(98)
+98 / 10 is not 0, move to the else block.
+Calculate 98 % 10=8.
+Calculate fun(98 / 10)=fun(9).
+Call fun(9)
+9 / 10 is 0, return 9 % 10=9.
+Now we need to combine the results recursively:
+For fun(98)=fun(8 + 9)=fun(17).
+
+For fun(987)=fun(7 + fun(17)).
+
+for fun(17):
+
+Call fun(17)
+17 / 10 is not 0, move to the else block.
+Calculate 17 % 10=7.
+
+Calculate fun(17 / 10)=fun(1).
+Call fun(1)
+1 / 10 is 0, return 1 % 10=1.
+
+Combining the results for fun(17):
+
+For fun(17)=fun(7 + 1)=fun(8).
+
+fun(8) returns 8 because 8 / 10 is 0.
+
+Combining the results for fun(987):
+
+For fun(987)=fun(7 + 8)=fun(15).
+
+Handling fun(15):
+
+Call fun(15)
+15 / 10 is not 0, move to the else block.
+
+Calculate 15 % 10=5.
+Calculate fun(15 / 10)=fun(1).
+
+Call fun(1)
+1 / 10 is 0, return 1 % 10=1.
+
+Combining the results for fun(15):
+
+For fun(15)=(5 + 1)=fun(6).
+fun(6) returns 6 because 6 / 10 is 0.
+
+Combining the results for fun(9874):
+
+For fun(9874)=fun(4 + fun(15))=fun(4 + 6).
+
+Finally, handling fun(10):
+
+Call fun(10)
+10 / 10 is not 0, move to the else block.
+Calculate 10 % 10=0.
+
+Calculate fun(10 / 10)=fun(1).
+
+Combining the results for fun(10)
+fun(10)=fun(0 + 1)=(1).
+
+fun(1)=1
+so fun(9874)=1.
